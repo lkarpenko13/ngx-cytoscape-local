@@ -1,0 +1,38 @@
+{
+  "name": "ngx-cytoscape",
+  "version": "0.5.23",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinvette/ngx-cytoscape"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": {
+    "name": "Calvin Vette",
+    "email": "calvinvette@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinvette/ngx-cytoscape/issues"
+  },
+  "main": "ngx-cytoscape.umd.js",
+  "module": "ngx-cytoscape.js",
+  "jsnext:main": "ngx-cytoscape.js",
+  "typings": "ngx-cytoscape.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.5.0",
+    "zone.js": "^0.8.20",
+    "jquery": "^3.3.1",
+    "cytoscape": "^3.2.8",
+    "@types/cytoscape": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/cytoscape": "^3.1.6",
+    "cytoscape": "^3.2.8"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.0"
+  }
+}
